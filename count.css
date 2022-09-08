@@ -1,0 +1,46 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+.ken_de_bash{
+    min-height: 100vh; display: flex; align-items: center; justify-content: center; flex-direction: column;
+}
+h2{
+    font-size: 35px; font-weight: bold ; padding: 20px; color: white;
+}
+.countdown{
+    justify-content: space-around; display: flex; text-align: center; 
+}
+.day, .hour, .minute, .second{
+    font-size: 25px;
+}
+
+.last{
+    font-size: 400px;
+}
+body{
+    background: linear-gradient(to right, blue, cyan);
+}
+@media only screen and (max-width:500px){
+    
+   *{ margin: 0; padding: 0; box-sizing: border-box;
+}
+.ken_de_bash{
+    min-height: 100vh; display: flex; align-items: center; justify-content: center; flex-direction: column;
+}
+h2{
+    font-size: 25px; font-weight: bold ; padding: 10px; color: white;
+}
+.countdown{
+    justify-content: space-around; display: flex; text-align: center; 
+}
+.day, .hour, .minute, .second{
+    font-size: 15px;
+}
+body{
+    background: linear-gradient(to right, blue, cyan);
+}
+.last{
+    font-size: 250px;
+}
+}
+
